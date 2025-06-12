@@ -14,3 +14,19 @@ This project implements **real-time Neural Style Transfer (NST)** using TensorFl
 - TensorFlow Hub
 - OpenCV
 - NumPy
+
+## 🧪 How It Works
+
+- Loads a **pre-trained NST model** from TensorFlow Hub.
+- Captures live video from your **webcam using OpenCV**.
+- Applies the style to each frame in **real time** using TensorFlow operations.
+- Displays the output with the applied artistic transformation.
+
+
+## 🚀 Performance Tips
+
+- Ensure TensorFlow uses your GPU: `tf.test.is_gpu_available()`
+- Reduce the webcam resolution for faster processing.
+- Style transfer models are lightweight but can still be demanding on low-end systems.
+
+
